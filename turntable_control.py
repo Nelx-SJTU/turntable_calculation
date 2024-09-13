@@ -91,14 +91,14 @@ if __name__ == "__main__":
     # controller.set_0_ref()
 
     # -- Test set position
-    controller.set_abs_position(0)  # 0->180->360(0): counterclockwise
-    # controller.set_rel_position(30)  # +: counterclockwise, -: clockwise
+    # controller.set_abs_position(0)  # 0->180->360(0): counterclockwise
+    controller.set_rel_position(30)  # +: counterclockwise, -: clockwise
 
     # -- Test Rotation speed
     # controller.set_velocity(0.05)
     # print("Start rotation.")
     # while time.time() - start_time < 12:
     #     pass
-    #
+    
     # controller.stop_rotation()
     # print("Stop.")
